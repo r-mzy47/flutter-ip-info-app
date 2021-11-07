@@ -1,0 +1,35 @@
+name: get_ip_info
+description: flutter clean architecture project which uses api.myip.com API and implements "theme switch" and "multi-language"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.1
+
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  dartz: ^0.10.0
+  http: ^0.13.4
+  get_it: ^7.2.0
+  dio: ^4.0.1
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+  generate: true
+
